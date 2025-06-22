@@ -1,7 +1,7 @@
 {
-  "name": "ANNIE X MUSIC",
-  "description": "ANNIE X MUSIC is a powerful and versatile Telegram Music Player Bot built with Python, utilizing Pyrogram and Py-Tgcalls libraries for high-quality group voice chat music streaming. This bot offers seamless playback, custom download server integration, and AI-enhanced features for a premium user experience.",
-  "logo": "https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg",
+  "name": "ANIMAL MUSIC",
+  "description": "ANIMAL MUSIC is a powerful and versatile Telegram Music Player Bot built with Python, utilizing Pyrogram and Py-Tgcalls libraries for high-quality group voice chat music streaming. This bot offers seamless playback, custom download server integration, and AI-enhanced features for a premium user experience.",
+  "logo": "https://te.legra.ph/file/ec19cf227791a167abedc.jpg",
   "keywords": [
     "python3",
     "telegram",
@@ -36,7 +36,7 @@
     "OWNER_ID": {
       "description": "Your Telegram numeric user ID (use @userinfobot to find it). Multiple IDs can be separated by a space.",
       "required": true,
-      "value": ""
+      "value": "7710642242"
     },
     "STRING_SESSION": {
       "description": "Pyrogram v2 session string. Generate it securely from https://telegram.tools/session-string-generator#pyrogram.",
