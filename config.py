@@ -73,9 +73,9 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "2500"))
 # ───── Bot Media Assets ───── #
 
 START_IMG_URL = [
-    "https://te.legra.ph/file/ec19cf227791a167abedc.jpg",
-    "https://te.legra.ph/file/ec19cf227791a167abedc.jpg",
-    "https://te.legra.ph/file/ec19cf227791a167abedc.jpg"
+    "https://i.ibb.co/sdXm8ZdF/Img2url-bot.jpg",
+    "https://i.ibb.co/sdXm8ZdF/Img2url-bot.jpg",
+    "https://i.ibb.co/sdXm8ZdF/Img2url-bot.jpg"
 ]
 
 STICKERS = [
