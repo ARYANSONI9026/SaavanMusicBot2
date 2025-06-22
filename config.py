@@ -73,9 +73,9 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "2500"))
 # ───── Bot Media Assets ───── #
 
 START_VIDS = [
-    "https://telegra.ph/file/9b7e1b820c72a14d90be7.mp4",
-    "https://telegra.ph/file/72f349b1386d6d9374a38.mp4",
-    "https://telegra.ph/file/a4d90b0cb759b67d68644.mp4"
+    "https://i.ibb.co/sdXm8ZdF/Img2url-bot.jpg",
+    "https://i.ibb.co/sdXm8ZdF/Img2url-bot.jpg",
+    "https://i.ibb.co/sdXm8ZdF/Img2url-bot.jpg"
 ]
 
 STICKERS = [
@@ -83,9 +83,9 @@ STICKERS = [
     "CAACAgUAAx0Cd6nKUAACATJl_rsEJOsaaPSYGhU7bo7iEwL8AAPMDgACu2PYV8Vb8aT4_HUPHgQ"
 ]
 HELP_IMG_URL = "https://te.legra.ph/file/ec19cf227791a167abedc.jpg"
-PING_VID_URL = "https://files.catbox.moe/3ivvgo.mp4"
+PING_VID_URL = "https://te.legra.ph/file/ec19cf227791a167abedc.jpg"
 PLAYLIST_IMG_URL = "https://telegra.ph/file/94e9eca3b0ec6e2dc6cd5.png"
-STATS_VID_URL = "https://files.catbox.moe/3ivvgo.mp4"
+STATS_VID_URL = "https://te.legra.ph/file/ec19cf227791a167abedc.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/mlztag.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/tiss2b.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/1d3da7.jpg"
