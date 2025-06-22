@@ -25,8 +25,8 @@ async def collect_members(chat_id, processing_msg):
 async def user_command(_, message):
     keyboard = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("CSV", callback_data="members_csv"),
-            InlineKeyboardButton("TXT", callback_data="members_txt")
+            InlineKeyboardButton("🍁 CSV 🍁", callback_data="members_csv"),
+            InlineKeyboardButton("🍁 TXT 🍁", callback_data="members_txt")
         ]]
     )
     await message.reply_text(
