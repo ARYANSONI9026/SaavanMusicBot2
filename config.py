@@ -46,7 +46,7 @@ GIT_TOKEN = getenv("GIT_TOKEN")
 
 # ───── Support & Community ───── #
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tabahi_tabahi")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/knight_society")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tabahi_tabahi")
 
 # ───── Assistant Auto Leave ───── #
 AUTO_LEAVING_ASSISTANT = False
