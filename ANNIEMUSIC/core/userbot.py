@@ -8,11 +8,11 @@ assistants = []
 assistantids = []
 
 GROUPS_TO_JOIN = [
-    "knight_society",
     "tabahi_tabahi",
-    "knight_society",
     "tabahi_tabahi",
-    "knight_society",
+    "tabahi_tabahi",
+    "tabahi_tabahi",
+    "tabahi_tabahi",
 ]
 
 
