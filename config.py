@@ -11,16 +11,16 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_ID = int(getenv("OWNER_ID", 7710642242))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "smartness_to_hai")
-BOT_USERNAME = getenv("BOT_USERNAME", "Bella_Music_Robot")
-BOT_NAME = getenv("BOT_NAME", "⏤͟͞●𝐵𝑒𝑙𝑙𝑎ᥫ᭡𝑀𝑢𝑠𝑖𝑐..♪♪🧚")
-ASSUSERNAME = getenv("ASSUSERNAME", "knight_society")
-EVALOP = list(map(int, getenv("EVALOP", "7714883515").split()))
+OWNER_ID = int(getenv("OWNER_ID", 7490178272))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "DEV_RAJPUT_PRO")
+BOT_USERNAME = getenv("BOT_USERNAME", "MTV_MUSIC_2BOT")
+BOT_NAME = getenv("BOT_NAME", "𝗠𝗧𝗩 𝗠𝗨𝗦𝗜𝗖 🎶")
+ASSUSERNAME = getenv("ASSUSERNAME", "tabahi_tabahi")
+EVALOP = list(map(int, getenv("EVALOP", "7710642242").split()))
 
 # ───── Mongo & Logging ───── #
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002311424197))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002705555602))
 
 # ───── Limits and Durations ───── #
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
