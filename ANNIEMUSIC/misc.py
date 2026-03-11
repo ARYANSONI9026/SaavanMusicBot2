@@ -31,19 +31,6 @@ def dbb():
 async def sudo():
     global SUDOERS
     SUDOERS.add(OWNER_ID)
-    sudoersdb = mongodb.sudoers
-    data = await sudoersdb.find_one({"sudo": "sudo"}) or {}
-    sudoers = data.get("sudoers", [])
-
-    if OWNER_ID not in sudoers:
-        sudoers.append(OWNER_ID)
-        await sudoersdb.update_one(
-            {"sudo": "sudo"}, {"$set": {"sudoers": sudoers}}, upsert=True
-        )
-
-    for user_id in sudoers:
-        SUDOERS.add(user_id)
-
     LOGGER(__name__).info("sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..")
 
 def heroku():
